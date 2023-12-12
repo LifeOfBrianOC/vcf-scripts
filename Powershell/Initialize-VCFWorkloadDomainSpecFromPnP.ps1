@@ -1,3 +1,5 @@
+#Powershell script to generate a VMware Cloud Foundation VI Workload domain json spec file
+#Modified version of https://github.com/GaryJBlake/my-cloudy-world-scripts/blob/main/PowerShell/vcf/scripts/createWorkloadDomainSpec.ps1
 Param(
     [Parameter(Mandatory=$true)][String]$Workbook,
     [Parameter(Mandatory=$true)][String]$Json,
